@@ -64,9 +64,39 @@ a.externo:after {
 header {
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
     /*  ^DEGRADE^  */
-    min-height: 150px;
+    min-height: 50px;
     text-align: center;
     padding-top: 35px;
+}
+
+#headerp {
+    top: 25px;
+    position: fixed;
+    padding-left: 650px;
+
+    
+}
+
+#quemsomos {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+#headerc {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#carrinho {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+
+#pesquisa {
+    color: white;
+    text-align: left;
 }
 
 header > p {
@@ -104,10 +134,12 @@ nav > a:hover {
 
 header > h1 {
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: cursive;
     font-weight: normal;
-    font-size: 3em;
+    font-size: 1.6em;
     margin-bottom: 20px;
+    margin: -40px;
+    margin-right: 610px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
